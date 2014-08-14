@@ -1,0 +1,16 @@
+
+
+
+	Define numero numeEntrada;
+	Define numero ValorHora;
+	
+	Imprima ("Ingrese las cantidades en minutos");
+	leer teclado = numeroEntrada;
+	
+	Si(numeroEntrada != 0){
+		valorHora = numeroEntrada / 60;
+		Imprima ("EL valor en horas es:" + valorHora);
+	}De los contrario{
+		imprima("No hay valor para convertir");
+	}//Fin del condicional
+	
