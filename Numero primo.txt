@@ -1,0 +1,21 @@
+
+
+
+
+		Define numero numEnt;
+		Define boolean numPrimo = true;
+		
+		Imprimir("Ingrese un numero entero: ");
+		Leer teclado = numEnt;
+		
+		Hacer(Define numero i = 2; (i < numEnt) && (numPrimo == true); i++){
+			Si(numEnt % i == 0){
+				numPrimo = false;
+			}//Fin del condicional
+		}//Fin del ciclo Hacer
+		
+		Si(numPrimo == true){
+			Imprimir("El número ingresado es ***PRIMO***");
+		}De lo contrario{
+			Imprimir("No es");
+		}//Fin del condicional
